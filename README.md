@@ -1,16 +1,10 @@
-# todo_app
+# ToDo App
 
-A new Flutter project.
+![1](https://github.com/KARTIKBANIK/ToDo_App/assets/69008307/43aeae4d-d066-4a16-aa9c-216719b22c46)
 
-## Getting Started
+![2](https://github.com/KARTIKBANIK/ToDo_App/assets/69008307/59b2e6f1-71b0-47be-8c2a-a0157d209f15)
 
-This project is a starting point for a Flutter application.
+![3](https://github.com/KARTIKBANIK/ToDo_App/assets/69008307/c051ee99-80fe-4a73-aff9-d08b7b3551d3)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
