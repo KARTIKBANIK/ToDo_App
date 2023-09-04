@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import '../constants/colors.dart';
 import '../model/todo_model.dart';
-import '../widgets/search_box.dart';
 import '../widgets/todo_items.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({super.key});
@@ -123,6 +123,12 @@ class _HomePageState extends State<HomePage> {
 //delete items
   void _deleteToDoItem(String id) {
     setState(() {
+      Fluttertoast.showToast(
+          msg: 'Successfully Deleted',
+          toastLength: Toast.LENGTH_SHORT,
+          gravity: ToastGravity.BOTTOM,
+          backgroundColor: Colors.red,
+          textColor: Colors.black);
       todoList.removeWhere((item) => item.id == id);
     });
   }
@@ -130,6 +136,12 @@ class _HomePageState extends State<HomePage> {
   //Add Items
   void _addToDoItem(String todo) {
     setState(() {
+      Fluttertoast.showToast(
+          msg: 'Task Added Successfully',
+          toastLength: Toast.LENGTH_SHORT,
+          gravity: ToastGravity.BOTTOM,
+          backgroundColor: Colors.green,
+          textColor: Colors.black);
       todoList.add(
         ToDo(
           id: DateTime.now().microsecondsSinceEpoch.toString(),
